@@ -1,7 +1,7 @@
 package guru.springframework.sfgrestdocexample.web.mappers;
 
-import guru.springframework.msscbeerservice.domain.Beer;
-import guru.springframework.msscbeerservice.web.model.BeerDto;
+import guru.springframework.sfgrestdocexample.domain.Beer;
+import guru.springframework.sfgrestdocexample.web.model.BeerDto;
 import org.mapstruct.Mapper;
 
 @Mapper(uses = {DateMapper.class})

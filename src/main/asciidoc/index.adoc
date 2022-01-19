@@ -1,0 +1,54 @@
+= SFG Brewery Order Services Docs
+Ferenc Világi;
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+
+Sample App to RestDoc
+
+GET BEER
+
+cURL esetén a hívás:
+
+include::{snippets}/v1/beer-get/curl-request.adoc[]
+
+HTTP hívás:
+
+include::{snippets}/v1/beer-get/http-request.adoc[]
+
+HTTP válasz:
+
+include::{snippets}/v1/beer-get/http-response.adoc[]
+
+HTTP válasz adatok:
+
+include::{snippets}/v1/beer-get/response-body.adoc[]
+
+HTTP válasz mezők:
+
+include::{snippets}/v1/beer-get/response-fields.adoc[]
+
+
+NEW BEER
+
+cURL esetén a hívás:
+
+include::{snippets}/v1/beer-new/curl-request.adoc[]
+
+HTTP hívás:
+
+include::{snippets}/v1/beer-new/http-request.adoc[]
+
+HTTP hívás mezők:
+
+include::{snippets}/v1/beer-new/request-fields.adoc[]
+
+HTTP válasz:
+
+include::{snippets}/v1/beer-new/http-response.adoc[]
+
+HTTP válasz adatok:
+
+include::{snippets}/v1/beer-new/response-body.adoc[]
+
+
